@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="627.0" y="417.0">java_pack.ComplexExpressionMul</node>
+    <node x="0.0" y="0.0">java_pack.ExpressionParser</node>
+    <node x="0.0" y="512.0">java_pack.ExpressionFactory</node>
+    <node x="0.0" y="417.0">java_pack.ComplexExpressionSub</node>
+    <node x="209.0" y="417.0">java_pack.ComplexExpressionDiv</node>
+    <node x="418.0" y="417.0">java_pack.ComplexExpressionAdd</node>
+    <node x="324.0" y="272.0">java_pack.ComplexExpression</node>
+    <node x="294.0" y="0.0">java_pack.NrComplex</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java_pack.ComplexExpressionSub" target="java_pack.ComplexExpression">
+      <point x="0.0" y="-25.0" />
+      <point x="94.5" y="387.0" />
+      <point x="345.0" y="387.0" />
+      <point x="-63.0" y="47.5" />
+    </edge>
+    <edge source="java_pack.ComplexExpressionMul" target="java_pack.ComplexExpression">
+      <point x="0.0" y="-25.0" />
+      <point x="721.5" y="387.0" />
+      <point x="471.0" y="387.0" />
+      <point x="63.0" y="47.5" />
+    </edge>
+    <edge source="java_pack.ComplexExpressionDiv" target="java_pack.ComplexExpression">
+      <point x="0.0" y="-25.0" />
+      <point x="303.5" y="397.0" />
+      <point x="387.0" y="397.0" />
+      <point x="-21.0" y="47.5" />
+    </edge>
+    <edge source="java_pack.ComplexExpressionAdd" target="java_pack.ComplexExpression">
+      <point x="0.0" y="-25.0" />
+      <point x="512.5" y="397.0" />
+      <point x="429.0" y="397.0" />
+      <point x="21.0" y="47.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="258.5" y="71.5" />
+  <SelectedNodes>
+    <node>java_pack.ComplexExpression</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
